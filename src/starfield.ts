@@ -1,4 +1,9 @@
+// src/starfield.ts
+console.log("⭐ starfield.ts cargado, modo oscuro:", window.matchMedia("(prefers-color-scheme: dark)").matches);
+
 type Star = { x: number; y: number; z: number; r: number };
+// … resto del código igual …
+
 
 const canvas = document.getElementById("stars") as HTMLCanvasElement;
 const ctx = canvas.getContext("2d")!;
