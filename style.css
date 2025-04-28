@@ -35,7 +35,7 @@ html, body {
   left: 0;
   width: 100%;
   height: 100%;
-  z-index: -1;
+  z-index: 0;
 }
 
 /* Marco central */
@@ -50,6 +50,7 @@ html, body {
   background: var(--frame-bg);
   border: 2px solid var(--border-color);
   box-sizing: border-box;
+  z-index: 1;
 }
 
 /* Líneas animadas */
