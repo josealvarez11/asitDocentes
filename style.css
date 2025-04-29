@@ -101,6 +101,7 @@ html, body {
 /* Responsive (celular) */
 @media (max-width: 600px) {
   .frame {
+    position: relative;
     width: 90vw;
     height: calc(100vh - 2 * var(--frame-v-margin));
     margin: var(--frame-v-margin) auto;
@@ -115,7 +116,7 @@ html, body {
   }
 }
 
-/* Barras animadas */
+/* Barras animadas  
 .frame::before,
 .frame::after {
   content: '';
@@ -175,7 +176,7 @@ html, body {
     left: 0;
     transform: rotate(270deg);
   }
-}
+}*/
 
 /* Movimiento del degradado de color */
 @keyframes moveGradient {
